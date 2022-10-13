@@ -126,7 +126,10 @@ html{
     font-size: 30px;
     margin-top: 30px;
     padding-right: 30px;
-
+    transition: all 0.9s ease;
+}
+.home .social i:hover{
+    font-size: 45px;
 }
 
 
@@ -244,7 +247,7 @@ section .title::before{
     display: block;
     height: 100%;
     animation: spin_words 6s infinite;
-    font-size: 25px;
+    font-size: 23px;
     color: rgb(46, 75, 129);
     font-weight: 600;
     text-align: center;
@@ -255,7 +258,7 @@ section .title::before{
 
 .lists{
     overflow: hidden;
-    width: 25%;
+    width: 27%;
     height: 40px;
 }
 
@@ -666,9 +669,11 @@ footer .social i{
     font-size: 30px;
     margin-top: 30px;
     padding-right: 30px;
-    
+    transition: all 0.3s ease;
 }
-
+footer .social i:hover{
+    font-size: 45px;
+}
 
 
 
