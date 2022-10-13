@@ -203,7 +203,7 @@ section .title::before{
 .about .about-content .right p{
     text-align: justify;
     font-size: 19px;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 .about .about-content .right a{
@@ -234,7 +234,7 @@ section .title::before{
 }
 .about .about-content .right .box{
     box-sizing: content-box;
-    height: 50px;
+    height: 40px;
     /*padding: 5px 3px;*/
     display: flex;
     
@@ -256,6 +256,7 @@ section .title::before{
 .lists{
     overflow: hidden;
     width: 25%;
+    height: 40px;
 }
 
 @keyframes spin_words{
